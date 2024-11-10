@@ -1,0 +1,38 @@
+body {
+    font-family: 'Press Start 2P', cursive;
+  }
+  
+h1{
+font-family: 'Press Start 2P', cursive;
+font-weight: bold;
+} 
+
+  
+h3{
+  font-family: 'Press Start 2P', cursive;
+  font-weight: bold;
+  font-size: 14px;
+  } 
+
+    
+h5{
+  font-family: 'Press Start 2P', cursive;
+  font-weight: bold;
+  font-size: 10px;
+  } 
+  
+
+p{
+  font-size: 8px;
+}
+
+.bg-custom {
+  background-color: #b4cc9c;
+}
+
+footer {
+  background-color: #b4cc9c;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}

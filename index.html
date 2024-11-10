@@ -6,6 +6,12 @@
   <title>My Awesome Blog</title>
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css" />
   <style>
     .hero {
       background-image: url("https://picsum.photos/1500/600");
@@ -25,18 +31,13 @@
     .popular-topics .card:hover {
       transform: scale(1.05);
     }
-    .footer {
-      background-color: #343a40;
-      color: white;
-      padding: 20px 0;
-      text-align: center;
-    }
+
   </style>
 </head>
 <body>
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">MyBlog</a>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-custom">
+    <a class="navbar-brand" href="#"><img src="/images/mushroom.webp" height="50px"/></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -61,8 +62,8 @@
   <!-- Hero Section -->
   <section class="hero">
     <div class="container">
-      <h1>Welcome to Imans Blog</h1>
-      <p class="lead">Cs student</p>
+      <h1 class="animate__animated animate__backInDown">Welcome to Imans Blog</h1>
+      <p class="lead">CS student</p>
       <a href="#recent-posts" class="btn btn-primary btn-lg">Start Reading</a>
     </div>
   </section>
@@ -86,8 +87,8 @@
         </div>
         <div class="col-md-4">
           <img src="https://picsum.photos/350/200?random=3" alt="Post Image" />
-          <h3 class="mt-3">Post Title 3</h3>
-          <p>testing.</p>
+          <h3 class="mt-3">Projects</h3>
+          <p>Things i've worked on</p>
           <a href="post3.html" class="btn btn-outline-primary">Read More</a>
         </div>
       </div>
@@ -128,17 +129,16 @@
   </section>
 
   <!-- Footer -->
-  <footer id="contact" class="footer">
+  <footer id="contact">
     <div class="container">
-      <p>&copy; 2023 MyBlog. All Rights Reserved.</p>
+      <p>&copy; 2023 Imans Blog. All Rights Reserved.</p>
       <p>
-        Follow us: <a href="#" class="text-white mx-2">Facebook</a> |
         <a href="#" class="text-white mx-2">Twitter</a> |
         <a href="#" class="text-white mx-2">Instagram</a>
       </p>
       <p>
-        Contact us:
-        <a href="mailto:info@myblog.com" class="text-white">info@myblog.com</a>
+        Contact me:
+        <a href="mailto:imankamran@gmail.com" class="text-white">imankamran@gmail.com</a>
       </p>
     </div>
   </footer>
